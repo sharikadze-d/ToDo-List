@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Sunday';
+  font-weight: normal;
+	src: url('./Sunday/sunday.eot'), /* IE 9 Compatibility Mode */
+		   url('./Sunday/sunday.woff2') format('woff2'), /* Super Modern Browsers */
+		   url('./Sunday/sunday.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		   url('./Sunday/sunday.ttf') format('truetype'), /* Safari, Android, iOS */
+	  	 url('./Sunday/sunday.svg') format('svg'); /* Chrome < 4, Legacy iOS */
+}
