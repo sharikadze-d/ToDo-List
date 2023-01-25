@@ -1,8 +1,7 @@
 .page {
-  font-family: 'Sunday', 'Times New Roman', Times, serif;
-  display: flex;
+  font-family: 'Inglobal', 'Arial', sans-serif;
   justify-content: center;
-  align-items: center;
+  display: flex;
   background: rgb(57,48,205);
   background: radial-gradient(circle, rgba(57,48,205,1) 0%, rgba(35,119,219,1) 46%, rgba(0,212,255,1) 100%);
 }

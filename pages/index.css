@@ -2,6 +2,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/opacity/opacity.css);
 
 /* Todo List */
 @import url(../blocks/todo/todo.css);
@@ -9,11 +10,14 @@
 @import url(../blocks/todo/__form/todo__form.css);
 @import url(../blocks/todo/__input/todo__input.css);
 @import url(../blocks/todo/__submit-btn/todo__submit-btn.css);
-@import url(../blocks/todo/__reset-btn/);
+@import url(../blocks/todo/__reset-btn/todo__reset-btn.css);
 @import url(../blocks/todo/__list/todo__list.css);
+@import url(../blocks/todo/__inner/todo__inner.css);
+@import url(../blocks/todo/__count-text/todo__count-text.css);
+@import url(../blocks/todo/__count/todo__count.css);
 @import url(../blocks/todo/__clear-btn/todo__clear-btn.css);
 @import url(../blocks/todo/__item/todo_item.css);
 @import url(../blocks/todo/__text/todo__text.css);
-@import url(../blocks/todo/__important-btn/);
+@import url(../blocks/todo/__important-btn/todo__important-btn.css);
 @import url(../blocks/todo/__edit-btn/todo__edit-btn.css);
 @import url(../blocks/todo/__delete-btn/todo__delete-btn.css);

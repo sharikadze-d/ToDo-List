@@ -1,9 +1,17 @@
 @font-face {
-	font-family: 'Sunday';
+  font-family: 'Inglobal';
   font-weight: normal;
-	src: url('./Sunday/sunday.eot'), /* IE 9 Compatibility Mode */
-		   url('./Sunday/sunday.woff2') format('woff2'), /* Super Modern Browsers */
-		   url('./Sunday/sunday.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		   url('./Sunday/sunday.ttf') format('truetype'), /* Safari, Android, iOS */
-	  	 url('./Sunday/sunday.svg') format('svg'); /* Chrome < 4, Legacy iOS */
+  src: url('./Inglobal/inglobal.woff2') format('woff2'),
+       url('./Inglobal/inglobal.woff') format('woff'),
+       url('./Inglobal/inglobal.ttf') format('ttf'),
+       url('./Inglobal/inglobal.eot') format('eot');
+}
+
+@font-face {
+  font-family: 'Inglobal';
+  font-weight: bold;
+  src: url('./Inglobal/inglobal-bold.woff2') format('woff2'),
+       url('./Inglobal/inglobal-bold.woff') format('woff'),
+       url('./Inglobal/inglobal-bold.ttf') format('ttf'),
+       url('./Inglobal/inglobal-bold.eot') format('eot')
 }

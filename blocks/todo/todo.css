@@ -1,4 +1,9 @@
 .todo {
-  border: 1px solid red;
-  margin-top: 100px;
+  background-color: #dddddd;
+  border-radius: 10px;
+  height: calc(100vh - 100px);
+  width: 40%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 50px;
 }

@@ -1,0 +1,11 @@
+.todo__input {
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  height: 1.5em;
+  
+}
+
+.todo__input:focus {
+  outline: 2px ridge rgba(170, 50, 220, .6);
+}

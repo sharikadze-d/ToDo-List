@@ -18,23 +18,25 @@
     <h1 class="todo__title">Список дел</h1>
     <form class="todo__form">
       <input type="text" class="todo__input">
-      <button type="submit" class="todo__submit-btn"></button>
-      <button type="reset" class="todo__reset-btn"></button>
+      <button type="submit" class="todo__submit-btn opacity"></button>
+      <button type="reset" class="todo__reset-btn opacity"></button>
     </form>
 
     <li class="todo__list">
 
     </li>
-
-    <button class="todo__clear-btn"></button>
+    <div class="todo__inner">
+      <p class="todo__count-text">Осталось невыполненных задач: <span class="todo__count"></span></p>
+      <button class="todo__clear-btn opacity"></button>
+    </div>
   </article>
   
   <template id="item">
     <ul class="todo__item">
       <p class="todo__text"></p>
-      <button type="button" class="todo__important-btn"></button>
-      <button type="button" class="todo__edit-btn"></button>
-      <button type="button" class="todo__delete-btn"></button>
+      <button type="button" class="todo__important-btn opacity"></button>
+      <button type="button" class="todo__edit-btn opacity"></button>
+      <button type="button" class="todo__delete-btn opacity"></button>
     </ul>
   </template>
 </body>

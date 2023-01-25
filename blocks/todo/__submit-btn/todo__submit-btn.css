@@ -1,0 +1,11 @@
+.todo__submit-btn {
+  background: none;
+  border: none;
+  width: 25px;
+  height: 25px;
+  background: url('../../../images/submit.svg') no-repeat center / cover;
+}
+
+.todo__submit-btn:hover {
+  box-shadow: 0px 5px 10px 2px rgba(4, 197, 46, 0.486);
+}

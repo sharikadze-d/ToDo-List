@@ -1,0 +1,7 @@
+.todo__reset-btn {
+  background: none;
+  border: none;
+  width: 25px;
+  height: 25px;
+  background: url('../../../images/reset.svg') no-repeat center / cover;
+}
