@@ -18,6 +18,7 @@
 @import url(../blocks/todo/__clear-btn/todo__clear-btn.css);
 @import url(../blocks/todo/__item/todo_item.css);
 @import url(../blocks/todo/__text/todo__text.css);
+@import url(../blocks/todo/__container/todo__container.css);
 @import url(../blocks/todo/__important-btn/todo__important-btn.css);
 @import url(../blocks/todo/__edit-btn/todo__edit-btn.css);
 @import url(../blocks/todo/__delete-btn/todo__delete-btn.css);

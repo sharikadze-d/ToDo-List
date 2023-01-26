@@ -1,0 +1,8 @@
+.todo__important-btn {
+  background: none;
+  border: none;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  background: url('../../../images/important.svg') no-repeat center / cover;
+}

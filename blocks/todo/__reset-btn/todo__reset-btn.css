@@ -3,5 +3,6 @@
   border: none;
   width: 25px;
   height: 25px;
+  padding: 0;
   background: url('../../../images/reset.svg') no-repeat center / cover;
 }

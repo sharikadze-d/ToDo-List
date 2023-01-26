@@ -1,0 +1,8 @@
+.todo__edit-btn {
+  background: none;
+  border: none;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  background: url('../../../images/edit.svg') no-repeat center / cover;
+}

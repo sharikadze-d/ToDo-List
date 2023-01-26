@@ -3,7 +3,12 @@
   border-radius: 10px;
   height: calc(100vh - 100px);
   width: 40%;
+  max-width: 512px;
   box-sizing: border-box;
   padding: 10px;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
 }

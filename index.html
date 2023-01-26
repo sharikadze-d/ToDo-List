@@ -15,29 +15,70 @@
 </head>
 <body class="page">
   <article class="todo">
-    <h1 class="todo__title">Список дел</h1>
-    <form class="todo__form">
-      <input type="text" class="todo__input">
-      <button type="submit" class="todo__submit-btn opacity"></button>
-      <button type="reset" class="todo__reset-btn opacity"></button>
-    </form>
+    <div>
+      <h1 class="todo__title">Список дел</h1>
+      <form class="todo__form">
+        <input type="text" class="todo__input">
+        <button type="submit" class="todo__submit-btn opacity"></button>
+        <button type="reset" class="todo__reset-btn opacity"></button>
+      </form>
 
-    <li class="todo__list">
-
-    </li>
+      <ul class="todo__list">
+        <li class="todo__item">
+          <p class="todo__text">Почистить зубыasdasdasdasdasdasda выпварапрап аврапра  ыпвапвап  апарапрап  парапр sdgdfgd gdfhfh d sdfsdf sd f</p>
+          <div class="todo__container">
+            <button type="button" class="todo__important-btn opacity"></button>
+            <button type="button" class="todo__edit-btn opacity"></button>
+            <button type="button" class="todo__delete-btn opacity"></button>
+          </div>
+        </li>
+        <li class="todo__item">
+          <p class="todo__text">Почистить зубыasdasdasdasdasdasda выпварапрап</p>
+          <div class="todo__container">
+            <button type="button" class="todo__important-btn opacity"></button>
+            <button type="button" class="todo__edit-btn opacity"></button>
+            <button type="button" class="todo__delete-btn opacity"></button>
+          </div>
+        </li>
+        <li class="todo__item">
+          <p class="todo__text">Почистить зубыasdasdasdasdasdasda выпварапрап аврапра  ыпвапвап  апарапрап  парапр sdgdfgd gdfhfh d sdfsdf sd f</p>
+          <div class="todo__container">
+            <button type="button" class="todo__important-btn opacity"></button>
+            <button type="button" class="todo__edit-btn opacity"></button>
+            <button type="button" class="todo__delete-btn opacity"></button>
+          </div>
+        </li>
+        <li class="todo__item">
+          <p class="todo__text">Почистить зубыasdasdasdasdasdasda выпварапрап аврапра  ыпвапвап  апарапрап  парапр sdgdfgd gdfhfh d sdfsdf sd f</p>
+          <div class="todo__container">
+            <button type="button" class="todo__important-btn opacity"></button>
+            <button type="button" class="todo__edit-btn opacity"></button>
+            <button type="button" class="todo__delete-btn opacity"></button>
+          </div>
+        </li>
+        <li class="todo__item">
+          <p class="todo__text">Почистить зубыasdasdasdasdasdasda выпварапрап аврапра  ыпвапвап  апарапрап  парапр sdgdfgd gdfhfh d sdfsdf sd f</p>
+          <div class="todo__container">
+            <button type="button" class="todo__important-btn opacity"></button>
+            <button type="button" class="todo__edit-btn opacity"></button>
+            <button type="button" class="todo__delete-btn opacity"></button>
+          </div>
+        </li>
+      </ul>
+    </div>
     <div class="todo__inner">
-      <p class="todo__count-text">Осталось невыполненных задач: <span class="todo__count"></span></p>
-      <button class="todo__clear-btn opacity"></button>
+      <p class="todo__count-text">Осталось невыполненных задач: <span class="todo__count">0</span></p>
+      <button class="todo__clear-btn opacity">Очистить</button>
     </div>
   </article>
   
   <template id="item">
-    <ul class="todo__item">
+    <li class="todo__item">
       <p class="todo__text"></p>
       <button type="button" class="todo__important-btn opacity"></button>
       <button type="button" class="todo__edit-btn opacity"></button>
       <button type="button" class="todo__delete-btn opacity"></button>
-    </ul>
+    </li>
   </template>
 </body>
 </html>
