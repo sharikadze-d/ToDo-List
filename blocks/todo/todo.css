@@ -2,6 +2,7 @@
   background-color: #dddddd;
   border-radius: 10px;
   height: calc(100vh - 100px);
+  width: 70%;
   max-width: 512px;
   box-sizing: border-box;
   padding: 10px;
