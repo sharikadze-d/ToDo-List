@@ -2,13 +2,27 @@
   background-color: #dddddd;
   border-radius: 10px;
   height: calc(100vh - 100px);
-  width: 40%;
   max-width: 512px;
   box-sizing: border-box;
   padding: 10px;
   margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   overflow: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .todo {
+    height: 100%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .todo {
+    margin: 0;
+  }
 }
